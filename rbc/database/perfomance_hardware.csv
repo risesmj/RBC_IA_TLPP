@@ -1,0 +1,51 @@
+SSD;HD;Gabinete;Fonte;Processador;Placa de vídeo;Placa mãe;RAM;Performance
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;Corsair Gamer;750;Ryzen 9 3900X;Radeon RX 550 Gaming 2GB;Asus;16GB DDR4;Alta
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Dell;450;Core i5 9400 2.90GHz;GeForce GTX 1050 2GB;Gigabyte;8GB DDR4 ;Alta
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Dell;500;Core i7 9700 3.0GHz;GeForce GT 740, 2GB;Biostar;16GB DDR4;Alta
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Corsair Gamer;650;Core i7 9700K 3.60GHz;GeForce GTX 950 XTreme 2GB;Biostar;8GB DDR4 ;Alta
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Dell;750;Ryzen 9 3900X;GeForce GT 740, 2GB;Biostar;16GB DDR4;Alta
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;Corsair Gamer;550;Ryzen 7 3700X;GeForce GTX 950 XTreme 2GB;Asus;8GB DDR4 ;Alta
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Corsair Gamer;650;Ryzen 5 3600;Radeon R7 360 2GB;Asrock;16GB DDR4;Alta
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Corsair Gamer;600;Ryzen 7 3700X;GeForce GTX 950 XTreme 2GB;Gigabyte;16GB DDR4;Alta
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital 1TB Purple WD10PURX 64MB SATA III;Dell;750;Ryzen 7 3700X;GeForce GTX 950 XTreme 2GB;Asus;8GB DDR4;Alta
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Corsair gamer;600;Ryzen 7 3700X;GeForce GTX 1050 2GB;AsRock;16GB DDR4;Alta
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital 1TB Purple WD10PURX 64MB SATA III;PC Yes;550;Ryzen 5 3600;GeForce GT 740, 2GB;Asrock;8GB DDR4;Alta
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;PC Yes;550;Ryzen 5 3600;GeForce GT 740, 2GB;Asus;8GB DDR4;Alta
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;PC Yes;650;Core i7 9700 3.0GHz;GeForce GTX 950 XTreme 2GB;Gigabyte;16GB DDR4;Alta
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;PC Yes;450;Ryzen 5 3600;GeForce GT 420 2GB;Asus;4GB DDR4;Baixa
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Deepcool Gamer;450;Core i5 9400F 2.90GHz;GeForce GT 730 2GB;Asrock;4GB DDR4;Baixa
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Dell;500;Pentium Gold G5400 3.7GHz;Radeon R7 360 2GB;Gigabyte;8GB DDR4;Baixa
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;PC Yes;550;Pentium Gold G5400 3.7GHz;Radeon R7 360 2GB;Biostar;4GB DDR4;Baixa
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;PC Yes;550;Core i5 9400F 2.90GHz;Radeon R7 360 2GB;Biostar;8GB DDR4;Baixa
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Dell;450;Core i5 9400F 2.90GHz;GeForce GT 740, 2GB;Biostar;4GB DDR4;Baixa
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital 1TB Purple WD10PURX 64MB SATA III;Dell;550;Core i5 9400 2.90GHz;GeForce GT 740, 2GB;AsRock;4GB DDR4;Baixa
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;PC yes;600;Core i5 9400F 2.90GHz;GeForce GT 730 2GB;AsRock;8GB DDR4;Baixa
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Corsair gamer;550;Pentium Gold G5400 3.7GHz;GeForce GT 730 2GB;Asus;8GB DDR4;Baixa
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Deepcool Gamer;450;Ryzen 5 3600;GeForce GT 420 2GB;Gigabyte;4GB DDR4;Baixa
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;PC Yes;600;Core i7 9700F 3.00GHz;Radeon R7 360 2GB;Asrock;4GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Deepcool Gamer;550;Ryzen 7 3700X;GeForce GTX 1050 2GB;Gigabyte;4GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;PC Yes;450;Ryzen 5 3600;GeForce GT 420 2GB;Asus;16GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Dell;450;Core i7 9700KF 3.60GHz;GeForce GT 730 2GB;Asrock;4GB DDR4;Média
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;PC Yes;450;Core i5 9400F 2.90GHz;GeForce GTX 950 XTreme 2GB;Gigabyte;8GB DDR4 ;Média
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;PC Yes;450;Ryzen 5 3600;Radeon RX 550 Gaming 2GB;Gigabyte;4GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;PC Yes;600;Ryzen 9 3900X;Radeon R7 360 2GB;Asrock;8GB DDR4 ;Média
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Deepcool Gamer;550;Ryzen 7 3700X;GeForce GTX 950 XTreme 2GB;Gigabyte;4GB DDR4;Média
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;Corsair Gamer;650;Core i5 9400F 2.90GHz;GeForce GTX 1050 2GB;Biostar;8GB DDR4 ;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;PC Yes;450;Core i5 9400F 2.90GHz;GeForce GTX 950 XTreme 2GB;Gigabyte;8GB DDR4 ;Média
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;Deepcool Gamer;650;Ryzen 5 3600;GeForce GT 420 2GB;Biostar;16GB DDR4;Média
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Corsair Gamer;550;Core i7 9700KF 3.60GHz;GeForce GT 420 2GB;Gigabyte;16GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;PC Yes;450;Ryzen 5 3600;GeForce GT 730 2GB;Asus;4GB DDR4;Média
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Corsair Gamer;600;Core i5 9400 2.90GHz;GeForce GTX 1050 2GB;Asus;8GB DDR4;Média
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Corsair Gamer;750;Core i9 9900K 3.60GHz;Radeon RX 550 Gaming 2GB;Asus;8GB DDR4 ;Ultra
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Dell;600;Core i5 9400 2.90GHz;GeForce GTX 1050 2GB;Gigabyte;16GB DDR4;Ultra
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;PC Yes;750;Core i7 9700KF 3.60GHz;Radeon R7 360 2GB;Biostar;16GB DDR4;Ultra
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Dell;750;Ryzen 9 3900X;GeForce GTX 1050 2GB;Gigabyte;16GB DDR4;Ultra
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;PC Yes;750;Ryzen 7 3700X;GeForce GTX 1050 2GB;Gigabyte;16GB DDR4;Ultra
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Dell;750;Ryzen 9 3900X;GeForce GTX 1050 2GB;Gigabyte;16GB DDR4;Ultra
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Corsair gamer;750;Ryzen 9 3900X;GeForce GTX 950 XTreme 2GB;Asus;16GB DDR4;Ultra
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;PC Yes;600;Core i9 9900K 3.60GHz;GeForce GTX 950 XTreme 2GB;Gigabyte;8GB DDR4;Ultra
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;Corsair gamer;750;Ryzen 9 3900X;GeForce GTX 1050 2GB;Asus;16GB DDR4;Ultra
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010;Corsair gamer;600;Ryzen 9 3900X;GeForce GTX 950 XTreme 2GB;Asus;8GB DDR4;Ultra
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB;Deepcool Gamer;600;Core i9 9900K 3.60GHz;GeForce GTX 950 XTreme 2GB;Asrock;8GB DDR4;Ultra
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB;Deepcool Gamer;750;Ryzen 9 3900X;GeForce GTX 950 XTreme 2GB;Asrock;16GB DDR4;Ultra
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB;PC Yes;600;Core i9 9900K 3.60GHz;GeForce GTX 1050 2GB;Gigabyte;8GB DDR4;Ultra 

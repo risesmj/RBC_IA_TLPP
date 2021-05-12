@@ -1,0 +1,6 @@
+Atributo;Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs
+Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs;1;0.5;0;0;0
+Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs;0.5;1;0.5;0.25;0
+Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs;0.25;0.5;1;0.75;0
+Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s;0;0.25;0.5;1;0.5
+Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs;0;0;0;0.5;1

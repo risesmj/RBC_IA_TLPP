@@ -1,0 +1,900 @@
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 1 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon RX 550 Gaming 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.66666667
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 2 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.19607843
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 3 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 500 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700 3.0GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.60364146
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 4 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 650 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700K 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.42997199
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 5 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.50280112
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 6 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.57563025
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 7 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 650 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.49439776
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 8 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.42857143
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 9 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital 1TB Purple WD10PURX 64MB SATA III | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.5)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.35714286
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 10 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: AsRock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.59943978
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 11 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital 1TB Purple WD10PURX 64MB SATA III | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.5)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.39915966
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 12 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.46918768
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 13 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 650 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700 3.0GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.37114846
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 14 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 420 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 1)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.36554622
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 15 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 730 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.75)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.2745098
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 16 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 500 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Pentium Gold G5400 3.7GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 1)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.42436975
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 17 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Pentium Gold G5400 3.7GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 1)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.65966387
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 18 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.66806723
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 19 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.35854342
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 20 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital 1TB Purple WD10PURX 64MB SATA III | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.5)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 740, 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: AsRock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.26610644
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 21 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 730 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.75)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: AsRock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.61344538
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 22 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Pentium Gold G5400 3.7GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 1)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 730 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.75)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.44397759
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 23 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 420 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 1)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.44257703
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 24 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700F 3.00GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.22408964
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 25 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.19327731
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 26 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 420 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 1)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.69047619
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 27 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700KF 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 730 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.75)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.41736695
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 28 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.28711485
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 29 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon RX 550 Gaming 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.46358543
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 30 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.44537815
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 31 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.232493
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 32 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 1)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 650 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.64005602
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 33 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400F 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.53641457
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 34 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 650 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 420 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 1)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.76470588
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 35 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 550 | Entrada: 600 | (Similaridade: 0.75)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700KF 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 420 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 1)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.6512605
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 36 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 450 | Entrada: 600 | (Similaridade: 0.25)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 5 3600 | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GT 730 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.75)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 4GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0)
+Resultado: 0.29831933
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 37 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.27731092
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 38 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair Gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i9 9900K 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon RX 550 Gaming 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.40616246
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 39 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i5 9400 2.90GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.58123249
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 40 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i7 9700KF 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: Radeon R7 360 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0.5)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Biostar | Entrada: Biostar | (Similaridade: 1)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.75070028
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 41 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.39915966
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 42 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 7 3700X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.35014006
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 43 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Dell | Entrada: PC Yes | (Similaridade: 0.75)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.39915966
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 44 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston KC600, 512GB, Sata, Leitura 550MB/s e Gravação 520MB/s | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.30812325
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 45 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i9 9900K 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.49019608
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 46 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.62745098
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 47 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 1TB, Sata III, 7200RPM, 64MB, ST1000DM010 | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Corsair gamer | Entrada: PC Yes | (Similaridade: 0.5)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asus | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.27731092
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 48 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A400, 480GB, Sata III, Leitura 500MBs Gravação 450MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Western Digital Caviar Blue 1TB, Sata III, 7200RPM, 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.25)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i9 9900K 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.28711485
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 49 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston A2000, 1TB, M.2 NVMe, Leitura 2200MBs e Gravação 2000MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate SkyHawk Surveillance 1TB SATA6 5400RPM 64MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 0.75)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: Deepcool Gamer | Entrada: PC Yes | (Similaridade: 0.25)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 750 | Entrada: 600 | (Similaridade: 0.5)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Ryzen 9 3900X | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 950 XTreme 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Asrock | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 16GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 1)
+Resultado: 0.49719888
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
+------------------------------------- | --------------------------- | -------------------------------------
+------------------------------------- | Caso 50 | -------------------------------------
+------------------------------------- | --------------------------- | -------------------------------------
+Atributo: SSD (Peso: 0.28) | Base de Dados: Kingston 240GB Sata III Leitura 500MBs Gravação 350MBs | Entrada: Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs | (Similaridade: 0.5)
+Atributo: HD (Peso: 1) | Base de Dados: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | Entrada: HD Seagate Barracuda 2TB, Sata III, 7200RPM, 256MB | (Similaridade: 1)
+Atributo: Gabinete (Peso: 0.3) | Base de Dados: PC Yes | Entrada: PC Yes | (Similaridade: 1)
+Atributo: Fonte (Peso: 0.3) | Base de Dados: 600 | Entrada: 600 | (Similaridade: 1)
+Atributo: Processador (Peso: 0.26) | Base de Dados: Core i9 9900K 3.60GHz | Entrada: Pentium Gold G5400 3.7GHz | (Similaridade: 0)
+Atributo: Placa de vídeo (Peso: 0.4) | Base de Dados: GeForce GTX 1050 2GB | Entrada: GeForce GT 420 2GB | (Similaridade: 0)
+Atributo: Placa mãe (Peso: 0.23) | Base de Dados: Gigabyte | Entrada: Biostar | (Similaridade: 0)
+Atributo: RAM (Peso: 0.8) | Base de Dados: 8GB DDR4 | Entrada: 16GB DDR4 | (Similaridade: 0.5)
+Resultado: 0.59943978
+------------------------------------- | ------------- | -------------------------------------
+------------------------------------- | ------------- | -------------------------------------
+.
+.
+.
+.
