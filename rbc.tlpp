@@ -12,14 +12,14 @@
 #define RAM                     "RAM"
 
 //Valores padrão de relevancia
-Static	RELEVANCIA_PLACA_MAE    := 0.6
-Static	RELEVANCIA_PROCESSADOR  := 1
-Static	RELEVANCIA_SSD          := 0.4
-Static	RELEVANCIA_HD           := 0.1
-Static	RELEVANCIA_PLACA_VIDEO  := 1
-Static	RELEVANCIA_GABINETE     := 0.1
-Static	RELEVANCIA_FONTE        := 0.5
-Static	RELEVANCIA_RAM          := 0.7
+Static	RELEVANCIA_PLACA_MAE    := 0.61
+Static	RELEVANCIA_PROCESSADOR  := 0.99
+Static	RELEVANCIA_SSD          := 0.41
+Static	RELEVANCIA_HD           := 0.11
+Static	RELEVANCIA_PLACA_VIDEO  := 0.99
+Static	RELEVANCIA_GABINETE     := 0.11
+Static	RELEVANCIA_FONTE        := 0.51
+Static	RELEVANCIA_RAM          := 0.71
 
 /*/{Protheus.doc} User Function RBC
 Sistema RBC para analisar qual perfomance do computador em relação a jogos
@@ -203,7 +203,7 @@ Static Function startApp()
     oComboRam := TComboBox():New(044,200,{|u| If(PCount()>0,cRAM:=u,cRAM)},aRAM,055,010,oWCenter,,,,,,.T.,,"",,,,,,,cRAM,aRelevancia[8][1])
 
     //Botão de Processar
-    TButton():New(065,200,"Processar",oWCenter,{|| setListResult(oWBottom,process(cPlacaMae,cCPU,cSSD,cHD,cPlacaVideo,cGabinete,cFonte,cRAM)) },120,012,,nil,,.T.,,"",,,,.F. )
+    TButton():New(065,200,"Processar",oWCenter,{|| FWMsgRun(, {||  setListResult(oWBottom,process(cPlacaMae,cCPU,cSSD,cHD,cPlacaVideo,cGabinete,cFonte,cRAM)) }, "", "Processando RBC...") },120,012,,nil,,.T.,,"",,,,.F. )
 
     //-----------------------------------------------------------------------------------
 	oLayer:addWindow('COL1','oWBottom',"Solução",100,.F.,.F.,,'LIN2')
