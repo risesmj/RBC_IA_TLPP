@@ -1,0 +1,481 @@
+#include "totvs.ch"
+#include "fileio.ch"
+
+//Nome dos atributos
+#define PLACA_MAE               "Placa mãe"
+#define PROCESSADOR             "Processador"
+#define SSD                     "SSD"
+#define HD                      "HD"
+#define PLACA_VIDEO             "Placa de vídeo"
+#define GABINETE                "Gabinete"
+#define FONTE                   "Fonte"
+#define RAM                     "RAM"
+
+//Valores padrão de relevancia
+Static	RELEVANCIA_PLACA_MAE    := 0.6
+Static	RELEVANCIA_PROCESSADOR  := 1
+Static	RELEVANCIA_SSD          := 0.4
+Static	RELEVANCIA_HD           := 0.1
+Static	RELEVANCIA_PLACA_VIDEO  := 1
+Static	RELEVANCIA_GABINETE     := 0.1
+Static	RELEVANCIA_FONTE        := 0.5
+Static	RELEVANCIA_RAM          := 0.7
+
+/*/{Protheus.doc} User Function RBC
+Sistema RBC para analisar qual perfomance do computador em relação a jogos
+de um usuário de acordo com os componentes de hardwares informados.
+@type  Function
+@author Matheus José da Cunha & Jorge Círilo da Cunha
+@since 11/05/2021
+@version version
+/*/
+User Function RBC()
+    //Armazena a revelancia dos atributos
+    Private aRelevancia         as array
+    //Armazena as similaridades dos atributos
+    Private aSimPlacaMae       as array
+    Private aSimProcessador    as array
+    Private aSimSSD            as array
+    Private aSimHD             as array
+    Private aSimPlacaVideo     as array
+    Private aSimGabinete       as array
+    Private aSimFonte          as array
+    Private aSimRAM            as array
+    //Armazena a base de dados rbc
+    Private aBaseDados          as array
+
+    //Efetua a inicialização necessária
+    initApp()
+    //inicia o app
+    startApp()
+Return 
+
+Static function initApp()
+    //Inicia a relevancia de cada atributos
+    initRelevance()
+    //Inicia a similaridade dos valores dos atirbutos
+    initAttributes()
+    //Inicia a base de dados
+    initDatabase()
+Return
+
+//Efetua a inicialização da relevancia de cada atributo
+Static Function initRelevance()
+    aRelevancia := {}
+    aAdd(aRelevancia,{PLACA_MAE     ,RELEVANCIA_PLACA_MAE})
+    aAdd(aRelevancia,{PROCESSADOR   ,RELEVANCIA_PROCESSADOR})
+    aAdd(aRelevancia,{SSD           ,RELEVANCIA_SSD})   
+    aAdd(aRelevancia,{HD            ,RELEVANCIA_HD} )       
+    aAdd(aRelevancia,{PLACA_VIDEO   ,RELEVANCIA_PLACA_VIDEO})
+    aAdd(aRelevancia,{GABINETE      ,RELEVANCIA_GABINETE})    
+    aAdd(aRelevancia,{FONTE         ,RELEVANCIA_FONTE})   
+    aAdd(aRelevancia,{RAM           ,RELEVANCIA_RAM})      
+
+Return
+
+//Efetua a inicilaização das similaridades do atributos
+Static Function initAttributes()
+    //Efetua a leitura dos arquivos de similaridade
+    aSimPlacaMae		:= readFile("c:\rbc\similaridade\placa_mae.csv") 
+    aSimProcessador	    := readFile("c:\rbc\similaridade\processador.csv")	
+    aSimSSD			    := readFile("c:\rbc\similaridade\ssd.csv")
+    aSimHD				:= readFile("c:\rbc\similaridade\hd.csv")
+    aSimPlacaVideo		:= readFile("c:\rbc\similaridade\placa_video.csv")
+    aSimGabinete		:= readFile("c:\rbc\similaridade\gabinete.csv")
+    aSimFonte			:= readFile("c:\rbc\similaridade\fonte.csv") 
+    aSimRAM			    := readFile("c:\rbc\similaridade\ram.csv")
+Return
+
+//Efetua a inicialização da base de dados RBC
+Static Function initDatabase()
+    Default aBaseDados  := {}
+
+    aBaseDados := readFile("c:\rbc\database\perfomance_hardware.csv")
+Return
+
+//Efetua a leitura do arquivo de índice com a tabela comparativa (similaridade)
+Static Function readFile(cFile)
+    Local   aLines      as array
+    Local   aColumns    as array
+    Local   aRet        as array
+    Local   nX          as numeric
+    Local   oFile       as object
+    Default cFile       := ""
+
+    aRet    := {}
+
+    //Prepara o arquivo
+	oFile   := FWFileReader():New(cFile)
+
+    //Abre o arquivo
+	If oFile:open()
+        //Resgata as linhas
+		aLines := oFile:getAllLines()
+		oFile:Close()
+
+        //Verifica se há linhas
+        If Len(aLines) > 0
+            //Percorre as linhas
+            For nX := 1 To Len(aLines)
+                //Resgata as colunas
+                aColumns := StrTokArr2(aLines[nX],";")
+                aAdd(aRet,aColumns)
+            Next nX
+        EndIf
+
+    EndIf
+    
+Return aRet
+
+//Inicia a tela principal do app, onde será efetuada as operações do usuário
+Static Function startApp()
+    Local	aPlacaMae   as array
+    Local	aCPU        as array
+    Local	aSSD        as array
+    Local	aHD         as array
+    Local	aPlacaVideo as array
+    Local	aGabinete   as array
+    Local	aFonte      as array
+    Local	aRAM        as array
+    Local   cPlacaMae   as character
+    Local   cCPU        as character
+    Local   cSSD        as character
+    Local   cHD         as character
+    Local   cPlacaVideo as character
+    Local   cGabinete   as character
+    Local   cFonte      as character
+    Local   cRAM        as character
+    Local   oDlg        as object
+    Local   oLayer      as object
+    Local   oWTop       as object
+    Local   oWCenter    as object
+    Local   oWBottom    as object
+
+    //Inicializa as array
+    aPlacaMae   := {}
+    aCPU        := {}
+    aSSD        := {}
+    aHD         := {}
+    aPlacaVideo := {}
+    aGabinete   := {}
+    aFonte      := {}
+    aRAM        := {}
+
+    prepareComboBox(@aPlacaMae,@aCPU,@aSSD,@aHD,@aPlacaVideo,@aGabinete,@aFonte,@aRAM)
+
+    oDlg := TDialog():New(180,180,1000,1280,'RBC - Identificar perfomance do computador para jogos',,,,,CLR_BLACK,CLR_WHITE,,,.T.)
+
+    //Prepara o layer
+    oLayer := FWLayer():new()
+	oLayer:Init(oDlg,.F.)
+	oLayer:addLine('LIN1',50,.F.)
+	oLayer:addCollumn('COL1',100, .T. ,'LIN1')
+	oLayer:addLine('LIN2',50,.F.)
+	oLayer:addCollumn('COL1',100, .T. ,'LIN2')
+
+    //-----------------------------------------------------------------------------------
+	oLayer:addWindow('COL1','WTop',"Valores de Peso",100,.F.,.F.,,'LIN1')
+	oWTop 	 := oLayer:getWinPanel('COL1','WTop','LIN1')
+	oWTop:FreeChildren()
+
+    TGet():New(006,001,bSetGet(aRelevancia[1][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[1][1],1)
+    TGet():New(006,100,bSetGet(aRelevancia[2][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[2][1],1)
+    TGet():New(006,200,bSetGet(aRelevancia[3][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[3][1],1)
+    TGet():New(006,300,bSetGet(aRelevancia[4][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[4][1],1)
+    TGet():New(006,400,bSetGet(aRelevancia[5][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[5][1],1)
+    TGet():New(040,001,bSetGet(aRelevancia[6][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[6][1],1)
+    TGet():New(040,100,bSetGet(aRelevancia[7][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[7][1],1)
+    TGet():New(040,200,bSetGet(aRelevancia[8][2]),oWTop,060,010,"@!",,0,,,.F.,,.T.,,.F.,,.F.,.F.,,.F.,.F.,,"",,,,,,,aRelevancia[8][1],1)
+
+
+    //-----------------------------------------------------------------------------------
+	oLayer:addWindow('COL1','oWCenter',"Valores de Entrada",100,.F.,.F.,,'LIN1')
+	oWCenter 	 := oLayer:getWinPanel('COL1','oWCenter','LIN1')
+	oWCenter:FreeChildren()
+
+    oComboPlacaMae := TComboBox():New(006,001,{|u| If(PCount()>0,cPlacaMae:=u,cPlacaMae)},aPlacaMae,055,010,oWCenter,,,,,,.T.,,"",,,,,,,cPlacaMae,aRelevancia[1][1])
+    oComboCPU := TComboBox():New(006,100,{|u| If(PCount()>0,cCPU:=u,cCPU)},aCPU,120,010,oWCenter,,,,,,.T.,,"",,,,,,,cCPU,aRelevancia[2][1])
+    oComboSSD := TComboBox():New(006,280,{|u| If(PCount()>0,cSSD:=u,cSSD)},aSSD,210,010,oWCenter,,,,,,.T.,,"",,,,,,,cSSD,aRelevancia[3][1])
+    oComboHD := TComboBox():New(025,001,{|u| If(PCount()>0,cHD:=u,cHD)},aHD,210,010,oWCenter,,,,,,.T.,,"",,,,,,,cHD,aRelevancia[4][1])
+    oComboPlacaVideo := TComboBox():New(025,280,{|u| If(PCount()>0,cPlacaVideo:=u,cPlacaVideo)},aPlacaVideo,210,010,oWCenter,,,,,,.T.,,"",,,,,,,cPlacaVideo,aRelevancia[5][1])
+    oComboGabinete := TComboBox():New(044,001,{|u| If(PCount()>0,cGabinete:=u,cGabinete)},aGabinete,055,010,oWCenter,,,,,,.T.,,"",,,,,,,cGabinete,aRelevancia[6][1])
+    oComboFonte := TComboBox():New(044,100,{|u| If(PCount()>0,cFonte:=u,cFonte)},aFonte,055,010,oWCenter,,,,,,.T.,,"",,,,,,,cFonte,aRelevancia[7][1])
+    oComboRam := TComboBox():New(044,200,{|u| If(PCount()>0,cRAM:=u,cRAM)},aRAM,055,010,oWCenter,,,,,,.T.,,"",,,,,,,cRAM,aRelevancia[8][1])
+
+    //Botão de Processar
+    TButton():New(065,200,"Processar",oWCenter,{|| setListResult(oWBottom,process(cPlacaMae,cCPU,cSSD,cHD,cPlacaVideo,cGabinete,cFonte,cRAM)) },120,012,,nil,,.T.,,"",,,,.F. )
+
+    //-----------------------------------------------------------------------------------
+	oLayer:addWindow('COL1','oWBottom',"Solução",100,.F.,.F.,,'LIN2')
+	oWBottom 	 := oLayer:getWinPanel('COL1','oWBottom','LIN2')
+	oWBottom:FreeChildren()
+
+
+    oDlg:Activate(,,,.T.,{||.T.},,{||} )
+    //process("Biostar","Core i5 9400F 2.90GHz","Kingston A400, 120GB, Sata III, Leitura 500MBs Gravação 320MBs","HD Seagate Barracuda 2TB Sata III 7200RPM 256MB","GeForce GTX 1050 2GB","Dell","750W","16GB DDR4")
+Return
+
+//Prepara o combobox de entrada
+Static Function prepareComboBox(aPlacaMae,aCPU,aSSD,aHD,aPlacaVideo,aGabinete,aFonte,aRAM)
+    Local   nX  as numeric
+
+    For nX := 2 To Len(aSimPlacaMae)
+        aAdd(aPlacaMae,aSimPlacaMae[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimProcessador)
+        aAdd(aCPU,aSimProcessador[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimSSD)
+        aAdd(aSSD,aSimSSD[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimHD)
+        aAdd(aHD,aSimHD[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimPlacaVideo)
+        aAdd(aPlacaVideo,aSimPlacaVideo[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimGabinete)
+        aAdd(aGabinete,aSimGabinete[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimFonte)
+        aAdd(aFonte,aSimFonte[nX][1])
+    Next nX
+
+    For nX := 2 To Len(aSimRAM)
+        aAdd(aRAM,aSimRAM[nX][1])
+    Next nX
+
+Return
+
+//Efetua o processamento RBC
+Static Function process(cPlacaMae,cCPU,cSSD,cHD,cPlacaVideo,cGabinete,cFonte,cRAM)
+    Local   aResultado      as array
+    Local   cEntrada        as character
+    Local   cKeyLog         as character
+    Local   nX              as numeric
+    Local  nY               as numeric
+    Local   nSoma           as numeric
+    Local   nTotalPeso      as numeric
+    Local   nVP             as numeric
+
+    aResultado  := {}
+    cKeyLog     := "log_" + FWTimeStamp()
+
+    //Percorre a base de dados
+    For nX := 2 To Len(aBaseDados)
+
+        writeLog("------------------------------------- | --------------------------- | -------------------------------------",cKeyLog)
+        writeLog("------------------------------------- | Caso " + cValToChar(nX-1) + " | -------------------------------------",cKeyLog)
+        writeLog("------------------------------------- | --------------------------- | -------------------------------------",cKeyLog)
+
+        //Reinicia a variável de cálculo
+        nSoma       := 0
+        nTotalPeso  := 0
+        nVP         := 0
+
+        //Percorre os atributos
+        For nY := 1 To Len(aBaseDados[nX])-1
+
+            //Resgata o nome do atributo da coluna
+            cAtributo := getNameAttribute(nY)
+
+            //Verifica o valor de entrada que deve ser analisado
+            Do Case
+                Case cAtributo == PLACA_MAE     
+                    cEntrada        := cPlacaMae
+                    aSimilaridade   := aSimPlacaMae
+
+                Case cAtributo == PROCESSADOR   
+                    cEntrada        := cCPU
+                    aSimilaridade   := aSimProcessador
+
+                Case cAtributo == SSD           
+                    cEntrada        := cSSD
+                    aSimilaridade   := aSimSSD
+
+                Case cAtributo == HD            
+                    cEntrada        := cHD
+                    aSimilaridade   := aSimHD
+
+                Case cAtributo == PLACA_VIDEO   
+                    cEntrada        := cPlacaVideo
+                    aSimilaridade   := aSimPlacaVideo
+
+                Case cAtributo == GABINETE      
+                    cEntrada        := cGabinete
+                    aSimilaridade   := aSimGabinete
+
+                Case cAtributo == FONTE         
+                    cEntrada        := cFonte
+                    aSimilaridade   := aSimFonte
+
+                Case cAtributo == RAM           
+                    cEntrada        := cRAM
+                    aSimilaridade   := aSimRAM
+
+                Otherwise
+                    cEntrada        := ""
+                    aSimilaridade   := {}
+
+            EndCase
+
+            //Resgata o valor de similaridade
+            nSimilar    := getSimilarity(aSimilaridade,aBaseDados[nX][nY],cEntrada)
+            //Resgat o valor do peso
+            nPeso       := getWeightAttribute(cAtributo)  
+            //Efetua o calculo de VP
+            nSoma += nSimilar*nPeso
+
+            writeLog("Atributo: " + cAtributo + " (Peso: "+ AllTrim(Str(nPeso)) + ") | Base de Dados: " + AllTrim(aBaseDados[nX][nY]) + " | Entrada: " + AllTrim(cEntrada) + " | (Similaridade: " + AllTrim(Str(nSimilar)) + ")",cKeyLog)
+
+            //Somatório dos pesos dos atributos
+            nTotalPeso += nPeso
+        Next nY
+
+        //Efetua o cálculo final
+        nVP = nSoma/nTotalPeso
+
+        writeLog("Resultado: " + AllTrim(Str(nVP)),cKeyLog)
+
+        //Adiciona na array de resultado
+        aAdd(aResultado,aClone(aBaseDados[nX]))
+        aAdd(aResultado[Len(aResultado)],nVP)
+
+        writeLog("------------------------------------- | ------------- | -------------------------------------",cKeyLog)
+        writeLog("------------------------------------- | ------------- | -------------------------------------",cKeyLog)
+        writeLog(".",cKeyLog)
+        writeLog(".",cKeyLog)
+        writeLog(".",cKeyLog)        
+        writeLog(".",cKeyLog)
+
+    Next nX
+
+    ASORT(aResultado,,, { |x, y| x[10] > y[10] } ) 
+
+Return aResultado
+
+//Retorna o nome do atributo da coluna da base de dados
+Static Function getNameAttribute(nColumn)
+    Local   cRet    as character
+    If Len(aBaseDados) > 0
+        cRet := AllTrim(aBaseDados[1][nColumn])
+    Else
+        cRet := ""
+    EndIf
+Return cRet
+
+//Resgata a similaridade do valor da entrada com o da base de dados de um atributo específico
+Static Function getSimilarity(aSimilaridade,cBase,cEntrada)
+    Local   nRet    as numeric
+    Local   nPosX   as numeric
+    Local   nPosY   as numeric 
+
+    nRet := 0
+
+    If Len(aSimilaridade) > 0
+
+        //Resgata a coluna X da primeira linha
+        nPosX := aScan(aSimilaridade[1],{| x | UPPER(AllTrim(x)) == UPPER(AllTrim(cBase)) })
+
+        If nPosX > 0
+            //Resgata a coluna Y da primeira coluna
+            nPosY := aScan(aSimilaridade,{| y | UPPER(AllTrim(y[1])) == UPPER(AllTrim(cEntrada)) })
+            If nPosY > 0
+                //Resgata o valor de relação
+                nRet := Val(aSimilaridade[nPosY][nPosX])
+            EndIf
+        EndIf
+
+    EndIf
+
+Return nRet
+
+//Retorna o peso de um atributo
+Static Function getWeightAttribute(cAtributo)
+    Local   nRet    as numeric
+    Local   nPos    as numeric
+
+    nRet    := 0
+
+    nPos := aScan(aRelevancia,{| x | UPPER(x[1]) == UPPER(cAtributo) })
+
+    If nPos > 0
+        nRet := aRelevancia[nPos][2]
+    EndIf
+
+Return nRet
+
+//Cria a lista com os resultados
+Static Function setListResult(oWnd,aBrowse)
+    Local   oBrowse as object
+
+    If ValType(oWnd) == "O"
+        oWnd:FreeChildren()
+    EndIf
+
+    If Len(aBrowse) > 0
+        oBrowse := TCBrowse():New(000,000,000,000,,{},{},oWnd,,,,,{||},,,,,,,.F.,,.T.,,.F.,,,)
+        oBrowse:setArray(aBrowse)
+        oBrowse:addColumn(TCColumn():New('%',{ || aBrowse[oBrowse:nAt,10] },,,,"LEFT",030,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('SSD',{ || aBrowse[oBrowse:nAt,1] },,,,"LEFT",010,.T.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('HD',{ || aBrowse[oBrowse:nAt,2] },,,,"LEFT",030,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Gabinete',{ || aBrowse[oBrowse:nAt,3] },,,,"LEFT",025,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Fonte',{ || aBrowse[oBrowse:nAt,4] },,,,"LEFT",100,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Processador',{ || aBrowse[oBrowse:nAt,5] },,,,"LEFT",200,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Placa de vídeo',{ || aBrowse[oBrowse:nAt,6] },,,,"LEFT",200,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Placa mãe',{ || aBrowse[oBrowse:nAt,7] },,,,"LEFT",200,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Memória RAM',{ || aBrowse[oBrowse:nAt,8] },,,,"LEFT",200,.F.,.T.,,,,.F.,) )
+        oBrowse:addColumn(TCColumn():New('Performance',{ || aBrowse[oBrowse:nAt,9] },,,,"LEFT",200,.F.,.T.,,,,.F.,) )
+        oBrowse:Align := CONTROL_ALIGN_ALLCLIENT
+        oBrowse:Refresh()
+        oBrowse:DrawSelect()
+    EndIf
+
+Return
+
+//Escreve no arquivo de log
+Static Function writeLog(cConteudo,cChave)
+	Local	cDiretorio	:= "c:\rbc\log\"
+	Local	cExtensao	:= ".log"
+	Default	cConteudo	:= ""
+	Default	cChave		:= "log_" + FWTimeStamp()
+
+	//Verifica se é nulo ou vazio
+	If cConteudo == nil .or. Empty(cConteudo)
+		Return
+	EndIf
+
+	//Resgata o diretÃ³rio e cria caso não exista
+	cFile := cDiretorio
+
+	//Concatena o nome do arquivo e sua extensão
+	cFile += cChave+cExtensao
+
+	//Abre o arquivo ou cria caso não exista
+	If File(cFile)
+		nHandle := FOpen(cFile,FO_READWRITE + FO_SHARED)
+	Else
+		nHandle := FCreate(cFile)
+	EndIf
+
+	//Caso não consiga, retorna.
+	If nHandle == -1
+		Return
+	EndIf
+
+	//Posiciona na ultima linha
+	FSeek(nHandle,0,FS_END)
+
+	//Escreve no arquivo
+	FWrite(nHandle,cConteudo + CRLF)
+
+	//Fecha o arquivo
+	FClose(nHandle)
+
+Return
